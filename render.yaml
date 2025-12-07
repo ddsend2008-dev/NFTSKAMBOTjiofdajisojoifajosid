@@ -1,0 +1,9 @@
+services:
+  - type: worker
+    name: nft-garant-bot
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python nft_scam_garant_bot.py
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.9.0
