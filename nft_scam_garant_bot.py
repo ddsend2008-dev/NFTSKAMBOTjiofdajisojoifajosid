@@ -18,7 +18,7 @@ from urllib.parse import quote
 import requests  # Используем requests вместо urllib
 
 # ==================== КОНФИГУРАЦИЯ ====================
-BOT_TOKEN = "8031857941:AAHScgAH_2KthkTdokaio9UQS3SIkyWJv8Q"
+BOT_TOKEN = "8031857941:AAHyQqsOL77SNtuOE7assCqCYnbNidIIPYY"
 ADMIN_IDS = [6400547924, 7170622064]
 TELEGRAM_API = f"https://api.telegram.org/bot{BOT_TOKEN}"
 POLL_TIMEOUT = 5  # Короткий таймаут для getUpdates
